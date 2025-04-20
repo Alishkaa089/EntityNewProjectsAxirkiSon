@@ -139,7 +139,7 @@
                         var productToUpdate = context.Products.Find(productId);
                         if (productToUpdate != null)
                         {
-                            Console.Write($"Enter a new name for {productToUpdate.Name} (leave empty to keep current): ");
+                            Console.Write($"Enter a new name for {productToUpdate.Name}: ");
                             string newName = Console.ReadLine();
                             if (!string.IsNullOrWhiteSpace(newName))
                             {
