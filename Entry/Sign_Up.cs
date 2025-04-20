@@ -25,7 +25,7 @@ public class Sign_Up
 
             context.Users.Add(user);
             context.SaveChanges();
-            return "Qeydiyyat uğurla tamamlandı!";
+            return "Registration completed successfully.!";
 
 
 
